@@ -3,7 +3,7 @@ var isContentNode = document.getElementById('contents');
 var component = React.createElement(
   'h1',
   null,
-  'Hello World'
+  'Hola World!'
 );
 // render the component inside content node, in this case the component is within content node, which is the div with the id contents
 ReactDOM.render(component, isContentNode);
